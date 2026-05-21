@@ -1,0 +1,20 @@
+{
+  "name": "discord-code-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that detects and validates custom codes",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "bot", "code-detection"],
+  "author": "Assassinforever2",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
